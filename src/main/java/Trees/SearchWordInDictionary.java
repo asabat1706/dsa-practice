@@ -1,6 +1,8 @@
 package Trees;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 public class SearchWordInDictionary {
     public static void main(String[] args){
@@ -20,6 +22,7 @@ public class SearchWordInDictionary {
         for(int i=0; i<ans.length; i++){
             System.out.print(ans[i]+ "   ");
         }
+
     }
 
     private static int searchInTrie(TrieNode dummy, String word) {
